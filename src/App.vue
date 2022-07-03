@@ -14,9 +14,9 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn id="search-btn" @click="toggleSearch" text
+      <!-- <v-btn id="search-btn" @click="toggleSearch" text
         ><font-awesome-icon icon="fa-solid fa-magnifying-glass"
-      /></v-btn>
+      /></v-btn> -->
     </v-app-bar>
 
     <v-navigation-drawer id="drawer" v-model="drawer" fixed temporary>

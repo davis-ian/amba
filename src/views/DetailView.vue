@@ -170,7 +170,8 @@ img {
 @media (min-width: 795px) {
   .b-btn {
     margin-bottom: 0;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
   }
   .recipe-card {
     margin: 30px;
@@ -179,7 +180,7 @@ img {
   .post-img {
     /* border: 2px solid purple; */
     width: 50%;
-    padding: 30px;
+    padding: 50px;
   }
   .wrapper {
     /* border: 2px solid red; */
