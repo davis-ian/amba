@@ -162,9 +162,19 @@ export default {
   flex-direction: column;
   justify-content: center;
   margin: 30px 10px;
+  max-width: 70vw;
+}
+#r-wrapper {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .recipe img {
   border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  max-width: 100%;
 }
 
 .recipe:hover {
@@ -200,6 +210,7 @@ export default {
 
   #r-wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 }

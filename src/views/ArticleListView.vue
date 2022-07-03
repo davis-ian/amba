@@ -154,11 +154,14 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  max-width: 70vw;
   margin: 30px 10px;
   /* border: 2px solid pink; */
 }
 img {
   border-radius: 10px 10px 0 0;
+  max-width: 100%;
 }
 .article:hover {
   cursor: pointer;
@@ -170,11 +173,18 @@ img {
 .c-btn:hover {
   cursor: pointer;
 }
-
+#a-wrapper {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #al-main {
   background-color: #f6e4d1;
   min-height: calc(100vh - 56px);
   padding: 20px 0;
+  /* border: 2px solid green; */
 }
 
 @media (min-width: 795px) {
@@ -192,9 +202,11 @@ img {
   }
   .article img {
     max-height: 400px;
+    object-fit: cover;
   }
   #a-wrapper {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
