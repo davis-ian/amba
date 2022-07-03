@@ -14,9 +14,9 @@
 
       <v-spacer></v-spacer>
 
-      <!-- <v-btn id="search-btn" @click="toggleSearch" text
+      <v-btn id="search-btn" @click="toggleSearch" text
         ><font-awesome-icon icon="fa-solid fa-magnifying-glass"
-      /></v-btn> -->
+      /></v-btn>
     </v-app-bar>
 
     <v-navigation-drawer id="drawer" v-model="drawer" fixed temporary>
@@ -162,6 +162,10 @@ export default {
   /* border: 2px solid red; */
   width: 100vw !important;
   height: 100vh !important;
+}
+#search-btn {
+  opacity: 0;
+  z-index: -1;
 }
 #h-short {
   display: block;

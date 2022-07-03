@@ -189,8 +189,9 @@ img {
   max-width: 80vw;
 }
 .content {
-  /* border: 2px solid green; */
-  padding: 15px 0;
+  /* border: 2px solid red; */
+
+  padding: 20px;
 }
 #side {
   display: none;
@@ -251,6 +252,7 @@ img {
   }
   img {
     /* border: 2px solid pink; */
+    object-fit: cover;
     border-radius: 10px 0 0 10px;
     height: 100%;
     width: 100%;
