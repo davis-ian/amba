@@ -9,7 +9,7 @@
       >
     </div>
     <h1 class="text-center ma-5 abril">{{ recipe.name }}</h1>
-    <div>
+    <div class="text-center">
       <span v-for="(category, index) in this.recipe.categories" :key="index">{{
         category.categories_id.name
       }}</span>

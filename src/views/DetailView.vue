@@ -142,7 +142,7 @@ export default {
 
 <style scoped>
 .content {
-  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: white;
   /* border: 2px solid orange; */
   display: flex;
@@ -153,12 +153,18 @@ export default {
 .b-btn {
   margin-bottom: 20px;
 }
+.wrapper {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: column-reverse;
+}
 .recipe-card {
   background-color: white;
   border-radius: 10px;
   text-align: center;
   margin: 30px 0;
 }
+
 #d-main {
   background-color: #f6e4d1;
   min-height: calc(100vh - 56px);
@@ -184,7 +190,9 @@ img {
   }
   .wrapper {
     /* border: 2px solid red; */
+
     display: flex;
+    flex-direction: row;
   }
   .content-wrapper {
     /* border: 2px solid orange; */
@@ -195,11 +203,12 @@ img {
     justify-content: center;
   }
   .content {
-    /* border: 2px solid palevioletred; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: center;
-    margin-top: 0;
-    width: 90%;
-    height: 90%;
+
+    width: 85%;
+    height: 85%;
   }
 }
 </style>
